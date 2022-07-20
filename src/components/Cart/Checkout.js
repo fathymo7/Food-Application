@@ -5,15 +5,15 @@ const Checkout = (props) => {
   return (
     <form>
       <div className={classes.control}>
-        <label htmlFor="name">Your Name</label>
+        <label htmlFor="name">Name</label>
         <input type="text" id="name" />
       </div>
       <div className={classes.control}>
-        <label htmlFor="num">Your Number</label>
+        <label htmlFor="num">Number</label>
         <input type="number" id="num" />
       </div>
       <div className={classes.control}>
-        <label htmlFor="street">Your Address</label>
+        <label htmlFor="street">Address</label>
         <input type="text" id="street" />
       </div>
       <button>Confirm</button>
